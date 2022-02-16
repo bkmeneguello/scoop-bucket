@@ -1,0 +1,18 @@
+{
+    "version": "0.8.7-Beta",
+    "homepage": "https://www.scrite.io/",
+    "description": "",
+    "license": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.scrite.io/software/Scrite-0.8.7-Beta-64bit-Setup.exe#/dl.7z",
+            "hash": "871c3fcad2ec6268a4e318c91e395d63096df5bd07c3f2bfbc7f2cb5831adc64"
+        }
+    },
+    "shortcuts": [
+        [
+           "Scrite.exe",
+           "Scrite"
+        ]
+    ]
+}
