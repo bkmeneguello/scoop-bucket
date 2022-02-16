@@ -1,0 +1,13 @@
+{
+    "version": "v3.8.1",
+    "homepage": "https://github.com/Praqma/helmsman",
+    "description": "",
+    "license": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Praqma/helmsman/releases/download/v3.8.1/helmsman_3.8.1_windows_amd64.tar.gz",
+            "hash": "02de1d107af992173c1336f2fdcb8e802544b5ea1bf2a79e10076694f7489fd6"
+        }
+    },
+    "bin": ["helmsman.exe"]
+}
