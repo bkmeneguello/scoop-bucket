@@ -1,18 +1,36 @@
 {
-    "version": "0.8.7-Beta",
+    "version": "0.8.8-Beta",
     "homepage": "https://www.scrite.io/",
     "description": "",
     "license": "",
     "architecture": {
         "64bit": {
-            "url": "https://www.scrite.io/software/Scrite-0.8.7-Beta-64bit-Setup.exe#/dl.7z",
-            "hash": "871c3fcad2ec6268a4e318c91e395d63096df5bd07c3f2bfbc7f2cb5831adc64"
+            "url": "https://www.scrite.io/software/Scrite-0.8.8-Beta-64bit-Setup.exe#/dl.7z",
+            "hash": "09f6a60361372a7d43367db669c095f3b2599d838b2bfcbc0878d31a0f05c399"
+        },
+        "32bit": {
+            "url": "https://www.scrite.io/software/Scrite-0.8.8-Beta-32bit-Setup.exe#/dl.7z",
+            "hash": "0b91698cd5a5936068418971d133047d3148bdfdf99bebd659fcdfc58ee16e49"
         }
     },
     "shortcuts": [
         [
-           "Scrite.exe",
-           "Scrite"
+            "Scrite.exe",
+            "Scrite"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://www.scrite.io/index.php/download-windows",
+        "regex": "/software/Scrite-([\\d.]+(-Beta)?)-64bit-Setup.exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.scrite.io/software/Scrite-$version-64bit-Setup.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://www.scrite.io/software/Scrite-$version-32bit-Setup.exe#/dl.7z"
+            }
+        }
+    }
 }

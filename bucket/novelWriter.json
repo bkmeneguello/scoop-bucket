@@ -1,12 +1,12 @@
 {
-    "version": "v1.6rc1",
+    "version": "1.6.2",
     "homepage": "https://novelwriter.io/",
     "description": "",
     "license": "",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vkbo/novelWriter/releases/download/v1.6rc1/novelwriter-1.6rc1-win10-amd64-setup.exe",
-            "hash": "f42f90cdc1027f6ffd109c30d079524878cb6e13f6c68363838a6d71017f0959"
+            "url": "https://github.com/vkbo/novelWriter/releases/download/v1.6.2/novelwriter-1.6.2-win10-amd64-setup.exe",
+            "hash": "b382384d08698005e616f69e09507e2a9538a8089320ad46e019ee084efcee2f"
         }
     },
     "innosetup": true,
@@ -17,5 +17,15 @@
             "novelWriter.pyw",
             "novelwriter.ico"
         ]
-    ]
+    ],
+    "checkver": {
+        "github": "https://github.com/vkbo/novelWriter"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/vkbo/novelWriter/releases/download/v$version/novelwriter-$version-win10-amd64-setup.exe"
+            }
+        }
+    }
 }
