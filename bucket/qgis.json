@@ -1,0 +1,28 @@
+{
+    "version": "3.24.3",
+    "homepage": "https://qgis.org/",
+    "description": "A Free and Open Source Geographic Information System",
+    "license": "GPL-2.0-only",
+    "url": "https://qgis.org/downloads/QGIS-OSGeo4W-3.24.3-1.msi",
+    "hash": "6ff55a0cc5619757221881ac3aa91fb13d53e1948788fc689b2309b135ce2dc4",
+    "extract_dir": "QGIS 3.24.3",
+    "shortcuts": [
+        [
+            "OSGeo4W.bat",
+            "QGIS",
+            "qgis",
+            "apps\\qgis\\icons\\qgis.ico"
+        ]
+    ],
+    "checkver": {
+        "url": "https://download.qgis.org/downloads/qgis-latest.tar.bz2.sha256",
+        "regex": "qgis-([0-9.]+).tar.bz2"
+    },
+    "autoupdate": {
+        "url": "https://qgis.org/downloads/QGIS-OSGeo4W-$version-1.msi",
+        "hash": {
+            "url": "$baseurl/QGIS-OSGeo4W-$version-1.sha256sum"
+        },
+        "extract_dir": "QGIS $version"
+    }
+}
