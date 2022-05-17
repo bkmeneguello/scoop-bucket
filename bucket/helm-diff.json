@@ -1,8 +1,8 @@
 {
     "version": "3.5.0",
     "homepage": "https://github.com/databus23/helm-diff",
-    "description": "",
-    "license": "",
+    "description": "A helm plugin that shows a diff explaining what a helm upgrade would change",
+    "license": "Apache-2.0",
     "depends": "helm",
     "architecture": {
         "64bit": {
@@ -11,7 +11,10 @@
         }
     },
     "extract_dir": "diff",
-    "post_install": "New-Item -ItemType SymbolicLink -Path $(Join-Path ((helm env | Select-String -SimpleMatch HELM_PLUGINS) -split '=')[1].Trim('\"') 'helm-diff') -Target $dir -Force | Out-Null",
+    "post_install": "New-Item -ItemType Junction -Path (Join-Path (helm env HELM_PLUGINS) 'helm-diff') -Target $dir -Force | Out-Null",
+    "uninstaller": {
+        "script": "Remove-Item -Path (Join-Path (helm env HELM_PLUGINS) 'helm-diff') -Recurse -Force | Out-Null"
+    },
     "checkver": "github",
     "autoupdate": {
         "architecture": {

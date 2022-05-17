@@ -2,7 +2,7 @@
     "version": "23.0",
     "homepage": "https://bitcoincore.org",
     "license": "MIT",
-    "description": "Bitcoin is an experimental digital currency that enables instant payments to anyone, anywhere in the world.",
+    "description": "An experimental digital currency that enables instant payments to anyone, anywhere in the world.",
     "architecture": {
         "64bit": {
             "url": "https://bitcoincore.org/bin/bitcoin-core-23.0/bitcoin-23.0-win64.zip",
@@ -12,7 +12,10 @@
     "extract_dir": "bitcoin-23.0",
     "env_add_path": "bin",
     "shortcuts": [
-        ["bin\\bitcoin-qt.exe", "Bitcoin Qt"]
+        [
+            "bin\\bitcoin-qt.exe",
+            "Bitcoin Qt"
+        ]
     ],
     "checkver": {
         "github": "https://github.com/bitcoin/bitcoin"
@@ -20,12 +23,12 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://bitcoincore.org/bin/bitcoin-core-$version/bitcoin-$version-win64.zip",
-                "hash": {
-                    "url": "$baseurl/SHA256SUMS"
-                },
-                "extract_dir": "bitcoin-$version"
+                "url": "https://bitcoincore.org/bin/bitcoin-core-$version/bitcoin-$version-win64.zip"
             }
-        }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS"
+        },
+        "extract_dir": "bitcoin-$version"
     }
 }

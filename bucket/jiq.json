@@ -1,8 +1,8 @@
 {
     "version": "0.7.2",
     "homepage": "https://github.com/fiatjaf/jiq",
-    "description": "",
-    "license": "",
+    "description": "Interactive JSON query tool using jq expressions",
+    "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://github.com/fiatjaf/jiq/releases/download/v0.7.2/jiq_windows_amd64.exe",
