@@ -1,7 +1,7 @@
 {
     "version": "0.16.2",
-    "homepage": "https://github.com/variantdev/vals",
     "description": "Helm-like configuration values loader with support for various sources",
+    "homepage": "https://github.com/variantdev/vals",
     "license": "Apache-2.0",
     "architecture": {
         "32bit": {
