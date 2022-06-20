@@ -1,11 +1,11 @@
 {
-    "version": "3.24.3",
+    "version": "3.26.0",
     "homepage": "https://qgis.org/",
     "description": "A Free and Open Source Geographic Information System",
     "license": "GPL-2.0-only",
-    "url": "https://qgis.org/downloads/QGIS-OSGeo4W-3.24.3-1.msi",
-    "hash": "6ff55a0cc5619757221881ac3aa91fb13d53e1948788fc689b2309b135ce2dc4",
-    "extract_dir": "QGIS 3.24.3",
+    "url": "https://qgis.org/downloads/QGIS-OSGeo4W-3.26.0-1.msi",
+    "hash": "94a7c86f88918422be8dfb9140297eecced7d8703b7dcf8895212133b4fe5953",
+    "extract_dir": "QGIS 3.26.0",
     "shortcuts": [
         [
             "OSGeo4W.bat",
