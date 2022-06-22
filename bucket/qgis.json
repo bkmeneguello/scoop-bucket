@@ -6,11 +6,12 @@
     "url": "https://qgis.org/downloads/QGIS-OSGeo4W-3.26.0-1.msi",
     "hash": "94a7c86f88918422be8dfb9140297eecced7d8703b7dcf8895212133b4fe5953",
     "extract_dir": "QGIS 3.26.0",
+    "post_install": "Invoke-ExternalCommand \"$dir\\bin\\qgis.bat\" -ArgumentList @('--postinstall')",
     "shortcuts": [
         [
-            "OSGeo4W.bat",
-            "QGIS",
-            "qgis",
+            "bin\\qgis-bin.exe",
+            "QGIS Desktop 3.26.0",
+            "",
             "apps\\qgis\\icons\\qgis.ico"
         ]
     ],
@@ -23,6 +24,14 @@
         "hash": {
             "url": "$baseurl/QGIS-OSGeo4W-$version-1.sha256sum"
         },
-        "extract_dir": "QGIS $version"
+        "extract_dir": "QGIS $version",
+        "shortcuts": [
+            [
+                "bin\\qgis-bin.exe",
+                "QGIS Desktop $version",
+                "",
+                "apps\\qgis\\icons\\qgis.ico"
+            ]
+        ]
     }
 }
