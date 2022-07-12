@@ -7,7 +7,6 @@
         "64bit": {
             "url": "https://asset.noovolari.com/latest/Leapp-0.13.0-win.zip",
             "hash": "d9fd8b2aa422f8d0af1e6001624461ec4f1e8b57f7ae999bd7ec261957900c9a",
-            "extract_dir": "release",
             "pre_install": [
                 "Expand-7zipArchive -Path \"$dir\\Leapp Setup *.exe\" -ExtractDir `$PLUGINSDIR -Removal",
                 "Remove-Item -Recurse -Path \"$dir\\*\" -Exclude app-64.7z",
