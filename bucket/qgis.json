@@ -1,16 +1,16 @@
 {
-    "version": "3.26.0",
+    "version": "3.26.1",
     "homepage": "https://qgis.org/",
     "description": "A Free and Open Source Geographic Information System",
     "license": "GPL-2.0-only",
-    "url": "https://qgis.org/downloads/QGIS-OSGeo4W-3.26.0-1.msi",
-    "hash": "94a7c86f88918422be8dfb9140297eecced7d8703b7dcf8895212133b4fe5953",
-    "extract_dir": "QGIS 3.26.0",
+    "url": "https://qgis.org/downloads/QGIS-OSGeo4W-3.26.1-1.msi",
+    "hash": "75bb1abbaf3aafd5ac6a1a48beb5727a98609741bc237b759d089c85ea7b5ba3",
+    "extract_dir": "QGIS 3.26.1",
     "post_install": "Invoke-ExternalCommand \"$dir\\bin\\qgis.bat\" -ArgumentList @('--postinstall')",
     "shortcuts": [
         [
             "bin\\qgis-bin.exe",
-            "QGIS Desktop 3.26.0",
+            "QGIS Desktop 3.26.1",
             "",
             "apps\\qgis\\icons\\qgis.ico"
         ]
