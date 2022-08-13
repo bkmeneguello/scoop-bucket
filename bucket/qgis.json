@@ -1,11 +1,11 @@
 {
-    "version": "3.26.1-2",
+    "version": "3.26.2-1",
     "homepage": "https://qgis.org/",
     "description": "A Free and Open Source Geographic Information System",
     "license": "GPL-2.0-only",
-    "url": "https://qgis.org/downloads/QGIS-OSGeo4W-3.26.1-2.msi",
-    "hash": "fe331f5467aa0d1d58b78fbb4fcd72af6823ca9d4c9a5d1ec5eb6b9eaf683342",
-    "extract_dir": "QGIS 3.26.1",
+    "url": "https://qgis.org/downloads/QGIS-OSGeo4W-3.26.2-1.msi",
+    "hash": "ab13c80a6dbed2f8743d737da4686e20d3b50773713f86efd02d083f91c860e1",
+    "extract_dir": "QGIS 3.26.2",
     "post_install": [
         "Invoke-ExternalCommand \"$dir\\bin\\qgis.bat\" -ArgumentList @('--postinstall')",
         "((Get-Content -path \"$dir\\apps\\qgis\\python\\plugins\\sagaprovider\\SagaAlgorithmProvider.py.tmpl\" -Raw) -replace '@saga@','\"2.3.\"') | Set-Content -Path \"$dir\\apps\\qgis\\python\\plugins\\sagaprovider\\SagaAlgorithmProvider.py\""
@@ -101,7 +101,7 @@
     "shortcuts": [
         [
             "bin\\qgis-bin.exe",
-            "QGIS Desktop 3.26.1",
+            "QGIS Desktop 3.26.2",
             "",
             "apps\\qgis\\icons\\qgis.ico"
         ]
