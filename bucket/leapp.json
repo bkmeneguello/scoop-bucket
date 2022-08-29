@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://asset.noovolari.com/latest/Leapp-0.14.2-win.zip",
-            "hash": "fce674e5be073b8c88d1bb5c3f8547126a7680e8ef973fdb849f03fae6149716",
+            "hash": "8ae6c2adc481c4e0721c9760d2fdf80c3d6db671bbdf572eb8f365b39f5674f2",
             "pre_install": [
                 "Expand-7zipArchive -Path \"$dir\\Leapp Setup *.exe\" -ExtractDir `$PLUGINSDIR -Removal",
                 "Remove-Item -Recurse -Path \"$dir\\*\" -Exclude app-64.7z",
