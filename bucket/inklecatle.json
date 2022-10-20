@@ -1,10 +1,10 @@
 {
-    "version": "1.1",
+    "version": "1.1.1",
     "homepage": "https://github.com/inkle/ink/",
     "description": "Ink command line compiler and player",
     "license": "MIT",
-    "url": "https://github.com/inkle/ink/releases/download/v1.1/inklecate_windows.zip",
-    "hash": "41b7f2bc3b7414c4932576223fab477aa31cced49cae3b4ae5419202894a6373",
+    "url": "https://github.com/inkle/ink/releases/download/v1.1.1/inklecate_windows.zip",
+    "hash": "6f317cb4c59bf1b31c6dd61e80c6a2287a1d8c241a703f0586f736ae00871aab",
     "bin": "inklecate.exe",
     "suggest": {
         "Inky": "inky"
