@@ -1,12 +1,12 @@
 {
-    "version": "0.15.1",
+    "version": "0.15.2",
     "description": "Leapp is a Cross-Platform Cloud access App, built on top of Electron",
     "homepage": "https://www.leapp.cloud",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://asset.noovolari.com/latest/Leapp-0.15.1-win.zip",
-            "hash": "f94421a7851d50bd29b77743076675396d97807902a31ac49e1d9d4057637d99",
+            "url": "https://asset.noovolari.com/latest/Leapp-0.15.2-win.zip",
+            "hash": "a1541039fa24c4451012c269a8ebee0781389798540f129d2e5d02e1f117e1fd",
             "pre_install": [
                 "Expand-7zipArchive -Path \"$dir\\Leapp Setup *.exe\" -ExtractDir `$PLUGINSDIR -Removal",
                 "Remove-Item -Recurse -Path \"$dir\\*\" -Exclude app-64.7z",
