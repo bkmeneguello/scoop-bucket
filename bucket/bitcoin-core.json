@@ -1,15 +1,15 @@
 {
-    "version": "23.0",
+    "version": "24.0",
     "homepage": "https://bitcoincore.org",
     "license": "MIT",
     "description": "An experimental digital currency that enables instant payments to anyone, anywhere in the world.",
     "architecture": {
         "64bit": {
-            "url": "https://bitcoincore.org/bin/bitcoin-core-23.0/bitcoin-23.0-win64.zip",
-            "hash": "004b2e25b21e0f14cbcce6acec37f221447abbb3ea7931c689e508054bfc6cf6"
+            "url": "https://bitcoincore.org/bin/bitcoin-core-24.0/bitcoin-24.0-win64.zip",
+            "hash": "09fa27956f2884434eee2ca1a9d2822712e8405c096e82ecedf64a638f42ca1a"
         }
     },
-    "extract_dir": "bitcoin-23.0",
+    "extract_dir": "bitcoin-24.0",
     "env_add_path": "bin",
     "shortcuts": [
         [
