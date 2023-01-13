@@ -1,10 +1,10 @@
 {
     "license": "",
-    "version": "4.0-beta10",
-    "url": "https://downloads.tuxfamily.org/godotengine/4.0/beta10/mono/Godot_v4.0-beta10_mono_win64.zip",
+    "version": "4.0-beta12",
+    "url": "https://downloads.tuxfamily.org/godotengine/4.0/beta12/mono/Godot_v4.0-beta12_mono_win64.zip",
     "homepage": "https://godotengine.org/",
-    "hash": "e6cfb4037d1271cf45462c40cfeb25453ffe6142ab3eded302033e336184fa69",
-    "extract_dir": "Godot_v4.0-beta10_mono_win64",
+    "hash": "b8654c679f9f0473103c153d080c2d7f54684d036d4908ad3fe5062b896edef9",
+    "extract_dir": "Godot_v4.0-beta12_mono_win64",
     "pre_install": [
         "Remove-Item \"$dir\\Godot_*_console.*\"",
         "Get-Item \"$dir\\Godot_*.exe\" | Rename-Item -NewName 'godot-mono-beta.exe'"
